@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //in Objective-C, url is different from String. So, in swift, it should convert into NSURL
-        let url = NSURL(string: "http://www.techxu.com")
+        let url = NSURL(string: "http://www.google.com")
         
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!){
             (data, response, error) in
