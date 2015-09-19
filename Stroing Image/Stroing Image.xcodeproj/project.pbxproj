@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C6BEC9C1BADAC7A00CCE45D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6BEC9B1BADAC7A00CCE45D /* AppDelegate.swift */; };
+		6C6BEC9E1BADAC7A00CCE45D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6BEC9D1BADAC7A00CCE45D /* ViewController.swift */; };
+		6C6BECA11BADAC7A00CCE45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6BEC9F1BADAC7A00CCE45D /* Main.storyboard */; };
+		6C6BECA31BADAC7A00CCE45D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6BECA21BADAC7A00CCE45D /* Images.xcassets */; };
+		6C6BECA61BADAC7A00CCE45D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C6BECA41BADAC7A00CCE45D /* LaunchScreen.xib */; };
+		6C6BECB21BADAC7A00CCE45D /* Stroing_ImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6BECB11BADAC7A00CCE45D /* Stroing_ImageTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C6BECAC1BADAC7A00CCE45D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C6BEC8E1BADAC7A00CCE45D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C6BEC951BADAC7A00CCE45D;
+			remoteInfo = "Stroing Image";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C6BEC961BADAC7A00CCE45D /* Stroing Image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stroing Image.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6BEC9A1BADAC7A00CCE45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6BEC9B1BADAC7A00CCE45D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C6BEC9D1BADAC7A00CCE45D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C6BECA01BADAC7A00CCE45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C6BECA21BADAC7A00CCE45D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C6BECA51BADAC7A00CCE45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6C6BECAB1BADAC7A00CCE45D /* Stroing ImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stroing ImageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6BECB01BADAC7A00CCE45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6BECB11BADAC7A00CCE45D /* Stroing_ImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroing_ImageTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C6BEC931BADAC7A00CCE45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6BECA81BADAC7A00CCE45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C6BEC8D1BADAC7A00CCE45D = {
+			isa = PBXGroup;
+			children = (
+				6C6BEC981BADAC7A00CCE45D /* Stroing Image */,
+				6C6BECAE1BADAC7A00CCE45D /* Stroing ImageTests */,
+				6C6BEC971BADAC7A00CCE45D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C6BEC971BADAC7A00CCE45D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C6BEC961BADAC7A00CCE45D /* Stroing Image.app */,
+				6C6BECAB1BADAC7A00CCE45D /* Stroing ImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C6BEC981BADAC7A00CCE45D /* Stroing Image */ = {
+			isa = PBXGroup;
+			children = (
+				6C6BEC9B1BADAC7A00CCE45D /* AppDelegate.swift */,
+				6C6BEC9D1BADAC7A00CCE45D /* ViewController.swift */,
+				6C6BEC9F1BADAC7A00CCE45D /* Main.storyboard */,
+				6C6BECA21BADAC7A00CCE45D /* Images.xcassets */,
+				6C6BECA41BADAC7A00CCE45D /* LaunchScreen.xib */,
+				6C6BEC991BADAC7A00CCE45D /* Supporting Files */,
+			);
+			path = "Stroing Image";
+			sourceTree = "<group>";
+		};
+		6C6BEC991BADAC7A00CCE45D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C6BEC9A1BADAC7A00CCE45D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C6BECAE1BADAC7A00CCE45D /* Stroing ImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C6BECB11BADAC7A00CCE45D /* Stroing_ImageTests.swift */,
+				6C6BECAF1BADAC7A00CCE45D /* Supporting Files */,
+			);
+			path = "Stroing ImageTests";
+			sourceTree = "<group>";
+		};
+		6C6BECAF1BADAC7A00CCE45D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C6BECB01BADAC7A00CCE45D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C6BEC951BADAC7A00CCE45D /* Stroing Image */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6BECB51BADAC7A00CCE45D /* Build configuration list for PBXNativeTarget "Stroing Image" */;
+			buildPhases = (
+				6C6BEC921BADAC7A00CCE45D /* Sources */,
+				6C6BEC931BADAC7A00CCE45D /* Frameworks */,
+				6C6BEC941BADAC7A00CCE45D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stroing Image";
+			productName = "Stroing Image";
+			productReference = 6C6BEC961BADAC7A00CCE45D /* Stroing Image.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C6BECAA1BADAC7A00CCE45D /* Stroing ImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6BECB81BADAC7A00CCE45D /* Build configuration list for PBXNativeTarget "Stroing ImageTests" */;
+			buildPhases = (
+				6C6BECA71BADAC7A00CCE45D /* Sources */,
+				6C6BECA81BADAC7A00CCE45D /* Frameworks */,
+				6C6BECA91BADAC7A00CCE45D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C6BECAD1BADAC7A00CCE45D /* PBXTargetDependency */,
+			);
+			name = "Stroing ImageTests";
+			productName = "Stroing ImageTests";
+			productReference = 6C6BECAB1BADAC7A00CCE45D /* Stroing ImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C6BEC8E1BADAC7A00CCE45D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Wenqian Xu";
+				TargetAttributes = {
+					6C6BEC951BADAC7A00CCE45D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6C6BECAA1BADAC7A00CCE45D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6C6BEC951BADAC7A00CCE45D;
+					};
+				};
+			};
+			buildConfigurationList = 6C6BEC911BADAC7A00CCE45D /* Build configuration list for PBXProject "Stroing Image" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C6BEC8D1BADAC7A00CCE45D;
+			productRefGroup = 6C6BEC971BADAC7A00CCE45D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C6BEC951BADAC7A00CCE45D /* Stroing Image */,
+				6C6BECAA1BADAC7A00CCE45D /* Stroing ImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C6BEC941BADAC7A00CCE45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6BECA11BADAC7A00CCE45D /* Main.storyboard in Resources */,
+				6C6BECA61BADAC7A00CCE45D /* LaunchScreen.xib in Resources */,
+				6C6BECA31BADAC7A00CCE45D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6BECA91BADAC7A00CCE45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C6BEC921BADAC7A00CCE45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6BEC9E1BADAC7A00CCE45D /* ViewController.swift in Sources */,
+				6C6BEC9C1BADAC7A00CCE45D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6BECA71BADAC7A00CCE45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6BECB21BADAC7A00CCE45D /* Stroing_ImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C6BECAD1BADAC7A00CCE45D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C6BEC951BADAC7A00CCE45D /* Stroing Image */;
+			targetProxy = 6C6BECAC1BADAC7A00CCE45D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C6BEC9F1BADAC7A00CCE45D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C6BECA01BADAC7A00CCE45D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C6BECA41BADAC7A00CCE45D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C6BECA51BADAC7A00CCE45D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C6BECB31BADAC7A00CCE45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C6BECB41BADAC7A00CCE45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C6BECB61BADAC7A00CCE45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stroing Image/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C6BECB71BADAC7A00CCE45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stroing Image/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C6BECB91BADAC7A00CCE45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stroing ImageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stroing Image.app/Stroing Image";
+			};
+			name = Debug;
+		};
+		6C6BECBA1BADAC7A00CCE45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stroing ImageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stroing Image.app/Stroing Image";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C6BEC911BADAC7A00CCE45D /* Build configuration list for PBXProject "Stroing Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6BECB31BADAC7A00CCE45D /* Debug */,
+				6C6BECB41BADAC7A00CCE45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6BECB51BADAC7A00CCE45D /* Build configuration list for PBXNativeTarget "Stroing Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6BECB61BADAC7A00CCE45D /* Debug */,
+				6C6BECB71BADAC7A00CCE45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C6BECB81BADAC7A00CCE45D /* Build configuration list for PBXNativeTarget "Stroing ImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6BECB91BADAC7A00CCE45D /* Debug */,
+				6C6BECBA1BADAC7A00CCE45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C6BEC8E1BADAC7A00CCE45D /* Project object */;
+}
