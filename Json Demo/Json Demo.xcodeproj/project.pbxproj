@@ -156,6 +156,7 @@
 		6C6BECBC1BADAF6E00CCE45D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Wenqian Xu";
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				6C6BECE51BADAF6E00CCE45D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C6BECE61BADAF6E00CCE45D /* Build configuration list for PBXNativeTarget "Json DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				6C6BECE81BADAF6E00CCE45D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
