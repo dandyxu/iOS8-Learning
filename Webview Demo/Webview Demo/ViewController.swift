@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let urlPath = "http://www.techxu.com"
+        let urlPath = "file:///Users/Dandy.Xu/Downloads/slider-master/demos-jquery/banner-rotator-2.source.html"
         let url = NSURL(string:urlPath)
         
         var request = NSURLRequest(URL:url!)
